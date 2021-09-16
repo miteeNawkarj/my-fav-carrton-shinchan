@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+
+#Introduction{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 800px;
+    background: linear-gradient(45deg,red,blue,green,yellow,lime); 
+    padding-top: 100px;
+    z-index: 5;
+}
+h1{
+    color: white;
+    font: cursive;
+    font-family: 'Allison', cursive;
+    letter-spacing: 5px;
+}
+p{
+    font: Arial;
+    color: red;
+    max-width: 200px;
+    margin: auto;
+    font-size: 25px;
+}
+#Sections{
+   list-style: none;
+    position: absolute;
+    top: 15px;
+    margin-left: 250px;
+    cursor:pointer;
+    z-index: 10;
+}
+.lol{
+    float: left;
+    margin-left: 50px;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+}
+#imag3{
+    height: 50px;
+    width: 50px;
+}
